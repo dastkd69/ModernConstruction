@@ -1,0 +1,109 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: url("../img/3construction.jpg.jpg");
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    padding: 5rem;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    margin-bottom: 15vh;
+}
+
+#client{
+    padding: 8rem;
+    max-width: 2rem;
+    max-height: 2rem;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-content: center;
+}
+
+#IMGtext{
+    display: inline-block;
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+    word-wrap: normal;
+}
+
+h2{
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+    border: 3.5px solid #ffffff;
+    margin-left: 80vh;
+    margin-right: 80vh;
+    padding: 0.5rem;
+    background-color: #ffffff;
+    opacity: 0.6;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+nav{
+    background-color: #000000;
+    opacity: 0.6;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    max-height: 6vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    margin-top: 5px;
+    margin-left: 10px;
+    max-width: 3.5rem;
+    vertical-align: middle;    
+}
+
+h1{
+    color: #ffffff;
+    font-size: 18px;
+    flex: 3;
+    margin-top: 1.2rem;
+    vertical-align: middle;
+}
+
+#topbarUL{
+    text-align: right;
+    margin-top: 0.8rem;
+    margin-right: 1rem;
+}
+
+#navLI{
+    color: #ffffff;
+    display: inline-block;
+    justify-content: space-between;
+    padding: .5rem;
+    vertical-align: middle;
+}
+
+.footer{
+    background-image:  linear-gradient(rgba(11, 125, 255, 0.65), rgba(25, 58, 241, 0.85));
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+#footerUL{
+    display: inline-block;
+    padding: 2px;
+    vertical-align: middle;
+}
+
+#footLI{
+    color: #ffffff;
+    display: inline-block;
+    padding: 5px;
+}

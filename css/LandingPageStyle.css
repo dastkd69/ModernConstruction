@@ -1,0 +1,198 @@
+html{
+    font-family: "Montserrat", sans-serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+#container1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.35)), url("../img/construction.png");	
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-name: fadeout;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+
+}
+
+@keyframes fadein{
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadeout{
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+nav{
+    background-color: #000000;
+    opacity: 0.6;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    max-height: 6vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    margin-top: 5px;
+    margin-left: 10px;
+    max-width: 3.5rem;
+    vertical-align: middle;
+    
+}
+
+h1{
+    color: #ffffff;
+    font-size: 18px;
+    flex: 3;
+    vertical-align: middle;
+}
+
+#topbarUL{
+    text-align: right;
+    margin-top: 0.8rem;
+    margin-right: 1rem;
+}
+
+#navLI{
+    color: #ffffff;
+    display: inline-block;
+    justify-content: space-between;
+    padding: .5rem;
+    vertical-align: middle;
+}
+
+#overlayText{
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    margin-top: 25vh;
+}
+
+h2{
+    font-size: 2.5rem;
+    animation-name: fadein;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    border: 5px solid #ffffff;
+    margin-right: 65vh;
+    margin-left: 65vh;
+    background: #ffffff;
+    color: #000000;
+    opacity: 0.6;
+}
+
+h3{
+    font-size: 3rem;
+    animation-name: fadein;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    margin-right: 30vh;
+    margin-left: 30vh;
+}
+
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 10vh;
+}
+
+#Cards1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../img/piccc.jpeg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 15vh;
+    font-size: 40px;
+    color: #ffffff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    transition: 0.5s;
+    transition-timing-function: ease;
+    word-wrap: normal;
+    max-height: 25vh;
+    max-width: 25vh;
+    text-align: center;
+}
+
+#Cards1:hover{
+    transform: scale(1.10)
+    
+}
+
+#Cards2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../img/railway.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 15vh;
+    font-size: 40px;
+    color: #ffffff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    transition: 0.5s;
+    transition-timing-function: ease;
+    word-wrap: normal;
+    max-height: 25vh;
+    max-width: 25vh;
+    text-align: center;
+}
+
+#Cards2:hover{
+    transform: scale(1.10)
+    
+}
+
+#Cards3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../img/building.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 15vh;
+    font-size: 40px;
+    color: #ffffff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    transition: 0.5s;
+    transition-timing-function: ease;
+    word-wrap: normal;
+    max-height: 25vh;
+    max-width: 25vh;
+    text-align: center;
+}
+
+#Cards3:hover{
+    transform: scale(1.10)
+    
+}
+
+.footer{
+    background-image:  linear-gradient(rgba(11, 125, 255, 0.65), rgba(25, 58, 241, 0.85));
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+#footerUL{
+    display: inline-block;
+    padding: 2px;
+}
+
+#footLI{
+    color: #ffffff;
+    display: inline-block;
+    padding: 5px;
+    vertical-align: middle;
+}
